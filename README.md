@@ -8,8 +8,8 @@ Bu repozitoriyanı fork edin:
 ### Tələb 2
 Aşağıdakiları tapşırıqları həyata keçirin:
 * Bir səhifədən ibarət application (Activity və Fragment)
-* minSdkVersion 16
-* targetSdkVersion 26
+* minSdkVersion 21
+* targetSdkVersion 31
 * https://github.com/socketio/socket.io-client-java istifadə etməklə WebSocket-ə qoşulmaq (https://q.investaz.net:3000)
 * WebSocket'dən alınan data'ları list şəklində göstərmək və real-time yeniləmək
 * WebSocket'dən alınan data'ları cache'ləmək (SQL Database istifadə etməklə)
