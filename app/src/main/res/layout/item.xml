@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:minHeight="64dp">
+
+    <ImageView
+        android:id="@+id/imgIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:src="@drawable/red_down_b_arrow_icon" />
+
+    <TextView
+        android:id="@+id/tvCurrencyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/imgIndicator"
+        android:maxLines="1"
+        android:paddingTop="16dp"
+        android:paddingEnd="16dp"
+        android:textAppearance="?attr/textAppearanceSubtitle1"
+        android:textColor="@drawable/item_tint"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/tvValues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCurrencyName"
+        android:layout_gravity="center_vertical"
+        android:layout_toEndOf="@id/imgIndicator"
+        android:paddingEnd="16dp"
+        android:textAppearance="?attr/textAppearanceBody2"
+        android:textColor="@drawable/item_tint"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/tvDateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvValues"
+        android:layout_gravity="center_vertical"
+        android:layout_toEndOf="@id/imgIndicator"
+        android:paddingEnd="16dp"
+        android:textAppearance="?attr/textAppearanceBody2"
+        android:textColor="@drawable/item_tint"
+        tools:ignore="RtlSymmetry" />
+</RelativeLayout>
