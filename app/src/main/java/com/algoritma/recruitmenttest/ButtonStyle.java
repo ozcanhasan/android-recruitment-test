@@ -2,7 +2,7 @@ package com.algoritma.recruitmenttest;
 
 public class ButtonStyle {
     //renk değiştir me **************
-    //kenarlık koy
+    //kenarlık koy - 11111111
     //arkaplan değiştir
     //font değiştir
 }
