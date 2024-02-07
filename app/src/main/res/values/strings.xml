@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Stock</string>
+    <string name="main_hata_baslik">Ana Ekran başlık</string>
 </resources>
